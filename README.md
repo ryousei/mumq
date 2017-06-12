@@ -6,7 +6,7 @@ The source code will be available soon.
 
 ### Authors ###
 
-* Wiriyang Pipatsakulroj, Mahidol University, Thailand
+* Wiriyang Pipatsakulroj (Mahidol University, Thailand)
 
 ### License ###
 
