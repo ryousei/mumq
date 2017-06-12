@@ -6,7 +6,11 @@ The source code will be available soon.
 
 ### Authors ###
 
-* Wiriyang Pipatsakulroj
+* Wiriyang Pipatsakulroj, Mahidol University, Thailand
+
+### License ###
+
+* Apache License Version 2.0
 
 ### References ###
 
