@@ -10,6 +10,7 @@ This is a repository of muMQ: A lightweight and scalable MQTT broker. muMQ sourc
 * broker: muMQ source code and configuration files
      - broker/config: Place for arp.conf and route.conf
 * tools: MQTT testing tool source code
+     - libmosquitto (MQTT client library) is required. (e.g., libmosquitto-dev)
 
 ### Install Guides ###
 muMQ can be built to run on two kinds of the TCP/IP stack.  

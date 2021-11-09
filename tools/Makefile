@@ -7,7 +7,7 @@ UTIL_INC = -I${UTIL_FLD}/include
 UTIL_OBJ = ${UTIL_FLD}/cpu.o
 
 MOS_INC = -I.
-MOS_LIB = libmosquitto.so.1
+MOS_LIB = -lmosquitto
 
 INC = ${MOS_INC} ${UTIL_INC}
 LIBS = -lpthread
