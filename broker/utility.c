@@ -18,6 +18,7 @@
 #include "utility.h"
 #include <stdio.h>
 #include <stdarg.h>
+#include <string.h>
 
 void write_log(enum log_level ll, const char *desc, ...) {
     char buffer[1048*1048];
@@ -44,8 +45,8 @@ void print_hex(bool is_received, unsigned char *msg, int msg_len) {
     }
     for (int i = 0; i < msg_len; i ++) {
         char ch[32];
-        sprintf(ch, "[%d]%02x", i, msg[i]);
-        sprintf(buff, "%s %s", buff, ch);
+        sprintf(ch, " [%d]%02x", i, msg[i]);
+        strcat(buff, ch);
     }
     write_debuglog(buff);
 }

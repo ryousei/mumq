@@ -82,9 +82,9 @@ void disconnect_sock(struct epollop* epoll_op, int fd) {
     }
 
 #if MTCP
-    int ret = mtcp_close(epoll_op->mctx, fd);
+    mtcp_close(epoll_op->mctx, fd);
 #else
-    int ret = close(fd);
+    close(fd);
 #endif
 }
 
